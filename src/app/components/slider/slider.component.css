@@ -1,0 +1,14 @@
+.bottom_parent{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottom_parent img{
+    width: 100%;
+}
+
+.carousel-item img{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
