@@ -38,8 +38,7 @@ import { TitleComponent } from './components/title/title.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule,
-    TitleComponent
+    CommonModule
 
   ],
   providers: [],

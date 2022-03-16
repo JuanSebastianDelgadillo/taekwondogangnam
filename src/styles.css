@@ -1,4 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
-.bgd_institucional{
-    background-color: blueviolet;
+html, body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.bg_institucional1{
+    background: #012D98 !important;
+}
+
+.bg_institucional2{
+    background-color: #D9001D;
+}
+
+.hr_style_bg1{
+    border: 3px solid #012D98;
+}
+
+.hr_style_bg2{
+    border: 3px solid #D9001D;
 }
