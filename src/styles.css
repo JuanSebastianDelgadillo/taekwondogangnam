@@ -18,3 +18,7 @@ html, body{
 .hr_style_bg2{
     border: 3px solid #D9001D;
 }
+
+.text_justify{
+    text-align: justify !important;
+}

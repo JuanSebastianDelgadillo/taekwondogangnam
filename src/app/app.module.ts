@@ -17,6 +17,7 @@ import { AmigosComponent } from './pages/amigos/amigos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CalendarioComponent } from './pages/calendario/calendario.component';
 import { TitleComponent } from './components/title/title.component';
+import { MovilComponent } from './components/movil/movil.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TitleComponent } from './components/title/title.component';
     AmigosComponent,
     ContactoComponent,
     CalendarioComponent,
-    TitleComponent
+    TitleComponent,
+    MovilComponent
   ],
   imports: [
     BrowserModule,
