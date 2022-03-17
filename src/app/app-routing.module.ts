@@ -16,6 +16,7 @@ const routes: Routes = [
   { path : "amigos" , component: AmigosComponent },
   { path : "calendario" , component: CalendarioComponent },
   { path : "contacto" , component: ContactoComponent },
+  { path : '**', redirectTo: ''}
 ];
 
 @NgModule({
