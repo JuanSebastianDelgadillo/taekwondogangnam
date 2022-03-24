@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private navbarComponent: NavbarComponent,private router: Router) { }
 
   ngOnInit(): void {
+    this.navbarComponent.isActive(this.router.url.split("/")[1]);
   }
 
 }

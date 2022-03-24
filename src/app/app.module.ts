@@ -18,6 +18,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CalendarioComponent } from './pages/calendario/calendario.component';
 import { TitleComponent } from './components/title/title.component';
 import { MovilComponent } from './components/movil/movil.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MovilComponent } from './components/movil/movil.component';
     ContactoComponent,
     CalendarioComponent,
     TitleComponent,
-    MovilComponent
+    MovilComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,7 @@ import { MovilComponent } from './components/movil/movil.component';
     CommonModule
 
   ],
-  providers: [],
+  providers: [NavbarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

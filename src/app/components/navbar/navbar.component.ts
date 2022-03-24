@@ -23,7 +23,7 @@ export class NavbarComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.isActive(this.router.url.split("/")[1])
+    this.isActive(this.router.url.split("/")[1]);
   }
 
   isActive(opcion: string){
@@ -34,7 +34,5 @@ export class NavbarComponent implements OnInit {
     this.activeAmigos     = opcion === 'amigos' ? "active": 'no-active';
     this.activeCalendario = opcion === 'calendario' ? "active": 'no-active';
     this.activeContacto   = opcion === 'contacto' ? "active": 'no-active';
-
-
   }
 }
