@@ -43,7 +43,6 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     CommonModule
-
   ],
   providers: [NavbarComponent],
   bootstrap: [AppComponent]
