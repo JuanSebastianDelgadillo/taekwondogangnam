@@ -13,9 +13,23 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onLogin(){
+    try {
+      this.authLogin.getUsuarios().subscribe((usuarios) => {
+        console.log("usuarios", usuarios);
+      })
+    } catch (error) {
+      console.log("Error en login con google");
+      
+    }
+   
+  }
+
   onGoogleLogin(){
     try {
-      this.authLogin.logginGoogle();
+      this.authLogin.getUsuarios().subscribe((usuarios) => {
+        console.log("usuarios", usuarios);
+      })
     } catch (error) {
       console.log("Error en login con google");
       
